@@ -55,11 +55,12 @@ function blueClick() {
 
 function headbandClick() {
   document.getElementById("imag3").src = "pics/imgheadband.png";
-  document.getElementById("firstxt").innerHTML = "Velenium looks at you with disgust. She's not a fan of pink. She never has been. It's like you isn't even trying. She's not even a fan of you. What a waste...";
+  document.getElementById("firstxt").innerHTML = "She loves you so much more now. Choose a book to read together";
   button3.style.display = "none";
   button4.style.display = "none";
 
-  gameOver.style.display = "";
+  continueButton.style.display = "";
+  gameState = "afterHeadband";
 }
 
 function cakeClick() {
@@ -143,6 +144,15 @@ function thirdPage() {
   if (button7) button7.style.display = "";
 }
 
+function showBookChoice() {
+  continueButton.style.display = "none";
+  document.getElementById("firstxt").innerHTML = "Choose a book to read together";
+  
+  if (button5) button5.style.display = "";
+  if (button6) button6.style.display = "";
+  if (button7) button7.style.display = "";
+}
+
 function gameOverr() {
   document.getElementById("firstxt").innerHTML = "Velenium is a zombie. She wants to feel normal again and needs your help.";
   continueButton.style.display = "";
@@ -192,6 +202,9 @@ function handleContinue() {
   } else if (gameState == "afterCake") {
     thirdPage();
     gameState = "end";
+  } else if (gameState == "afterHeadband") {
+    showBookChoice();
+    gameState = "bookChoice";
   }
 }
 

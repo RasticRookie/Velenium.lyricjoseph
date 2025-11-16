@@ -72,6 +72,21 @@ top: 790px;
 background-color: #ea6c98;
 }
 
+#option5 {
+top: 720px;
+background-color: #dd4b4b;
+}
+
+#option6 {
+top: 790px;
+background-color: #5d7cf9;
+}
+
+#option7 {
+top: 860px;
+background-color: #d23737;
+}
+
 #gameOver {
   font-family: "Tourney", sans-serif;
   background-color: #290000;
