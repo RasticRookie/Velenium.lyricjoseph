@@ -74,19 +74,20 @@ background-color: #ea6c98;
 
 #option5 {
 top: 720px;
-  left: 10px;
-background-color: #7db922;
+  left: 50px;
+background-color: #99ca4e;
 }
 
 #option6 {
 top: 790px;
-background-color: #cd39ea;
+  left: 50px
+background-color: #c873d9;
 }
 
 #option7 {
 top: 860px;
-  left: 10px;
-background-color: #bb2a2a;
+  left: 50px;
+background-color: #d35a5a;
 }
 
 #gameOver {
