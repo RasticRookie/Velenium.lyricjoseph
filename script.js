@@ -20,6 +20,8 @@ button2.style.display = "none";
 if (clickCount == 0) {
   button3.style.display = "none";
   button4.style.display = "none";
+  button1.style.display = "none";
+  button2.style.display = "none";
 };
 
 var gameOver = document.createElement("button");
@@ -78,6 +80,8 @@ function gameOverr() {
   document.getElementById("imag3").src = "pics/img1.png";
   clickCount = 0;
   gameOver.style.display = "none";
+  button3.style.display = "none";
+  button4.style.display = "none";
   };
 function reStartt() {
   document.getElementById("firstxt").innerHTML = "Velenium is a zombie. She wants to feel normal again and needs your help.";
@@ -86,6 +90,8 @@ function reStartt() {
   clickCount = 0;
    document.body.style.backgroundColor = '#ffd3f5';
   reStart.style.display = "none";
+  button3.style.display = "none";
+  button4.style.display = "none";
   };
 
 var button3 = document.getElementById("option3");
@@ -102,9 +108,10 @@ function secondPage() {
   button3.style.display = "";
   button4.style.display = "";
 
-  button3.addEventListener("click", cakeClick);
-  button4.addEventListener("click", headbandClick);  
-}
+  button3.addEventListener("click", headbandClick);
+  button4.addEventListener("click", cakeClick);  
+};
+
 function cakeClick() {
   document.getElementById("imag3").src = "pics/imgcake.png";
   document.getElementById("firstxt").innerHTML = "It's...so perfect! She can barely contain herself as she stares at the birthday gift. Everything is perfect. You...are perfect. Finally, she found someone worth saving. A kind angel such as yourself will never leave her sight again.";
@@ -116,6 +123,7 @@ function cakeClick() {
 
   continueButton.addEventListener("click", thirdPage);
 }
+  
 function headbandClick() {
   document.getElementById("imag3").src = "pics/imgheadband.png";
   document.getElementById("firstxt").innerHTML = "Velenium looks at you with disgust. She's not a fan of pink. She never has been. It's like you aren't even trying. She's not even a fan of you. What a waste...";
@@ -125,13 +133,17 @@ function headbandClick() {
   gameOver.style.display = "";
 
     gameOver.addEventListener("click", gameOverr);
-
 }
+  
 function thirdPage() {
    document.body.style.backgroundColor = '#4091ce';
   continueButton.style.display = "none";
   document.getElementById("firstxt").innerHTML = "You did it! You saved Velenium! And...your life...";
   reStart.style.display = "";
-
-reStart.addEventListener("click", reStartt);
+  reStart.addEventListener("click", reStartt);
+  
+  button3.style.display = "none";
+ 
+  button4.style.display = "none";
 }
+
