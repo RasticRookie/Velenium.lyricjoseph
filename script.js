@@ -18,13 +18,13 @@ var button4 = document.getElementById("option4");
 button4.style.display = "none";
 
 var button5 = document.getElementById("option5");
-button5.style.display = "none";
+if (button5) button5.style.display = "none";
 
 var button6 = document.getElementById("option6");
-button6.style.display = "none";
+if (button6) button6.style.display = "none";
 
 var button7 = document.getElementById("option7");
-button7.style.display = "none";
+if (button7) button7.style.display = "none";
 
 var gameOver = document.createElement("button");
 gameOver.innerHTML = "GAME OVER";
@@ -138,9 +138,9 @@ function thirdPage() {
   button3.style.display = "none";
   button4.style.display = "none";
   
-  button5.style.display = "";
-  button6.style.display = "";
-  button7.style.display = "";
+  if (button5) button5.style.display = "";
+  if (button6) button6.style.display = "";
+  if (button7) button7.style.display = "";
 }
 
 function gameOverr() {
@@ -200,8 +200,8 @@ button1.onclick = redClick;
 button2.onclick = blueClick;
 button3.onclick = headbandClick;
 button4.onclick = cakeClick;
-button5.onclick = kanyeClick;
-button6.onclick = nanaClick;
-button7.onclick = onepieceClick;
+if (button5) button5.onclick = kanyeClick;
+if (button6) button6.onclick = nanaClick;
+if (button7) button7.onclick = onepieceClick;
 gameOver.onclick = gameOverr;
 reStart.onclick = reStartt;
