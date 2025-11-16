@@ -77,22 +77,22 @@ function kanyeClick() {
   document.getElementById("imag3").src = "pics/end2.png";
   document.getElementById("imagee").src = "pics/greenbg.png";
   document.getElementById("firstxt").innerHTML = "You gave her the Kanye West autobiography. She's enraged by your terrible request. Such an inpolite man is the last thing she's want to read about. She bites you, infecting her with her zombie disease!";
-  
-  button5.style.display = "none";
-  button6.style.display = "none";
-  button7.style.display = "none";
-  
+
+  if (button5) button5.style.display = "none";
+  if (button6) button6.style.display = "none";
+  if (button7) button7.style.display = "none";
+
   reStart.style.display = "";
 }
 
 function nanaClick() {
   document.getElementById("imag3").src = "pics/end4.png";
   document.getElementById("firstxt").innerHTML = "You gave her the Nana manga. She loves it! She's so happy you got her something she loves. He hear is soaring with joy.";
-  
-  button5.style.display = "none";
-  button6.style.display = "none";
-  button7.style.display = "none";
-  
+
+  if (button5) button5.style.display = "none";
+  if (button6) button6.style.display = "none";
+  if (button7) button7.style.display = "none";
+
   reStart.style.display = "";
 }
 
@@ -100,11 +100,11 @@ function onepieceClick() {
   document.getElementById("imag3").src = "pics/end1.png";
   document.getElementById("imagee").src = "pics/greenbg.png";
   document.getElementById("firstxt").innerHTML = "You gave her the One Piece manga. She's upset you don't want to read shoujo! Although shonen is fine too, her heart is broken.";
-  
-  button5.style.display = "none";
-  button6.style.display = "none";
-  button7.style.display = "none";
-  
+
+  if (button5) button5.style.display = "none";
+  if (button6) button6.style.display = "none";
+  if (button7) button7.style.display = "none";
+
   reStart.style.display = "";
 }
 
@@ -134,10 +134,10 @@ function thirdPage() {
   document.body.style.backgroundColor = '#4091ce';
   continueButton.style.display = "none";
   document.getElementById("firstxt").innerHTML = "She loves you so much more now. You decided to bring her to a library away from home. Although reluctant, she loves a good read. Choose a book to read together.";
-  
+
   button3.style.display = "none";
   button4.style.display = "none";
-  
+
   if (button5) button5.style.display = "";
   if (button6) button6.style.display = "";
   if (button7) button7.style.display = "";
@@ -155,9 +155,9 @@ function gameOverr() {
   button2.style.display = "none";
   button3.style.display = "none";
   button4.style.display = "none";
-  button5.style.display = "none";
-  button6.style.display = "none";
-  button7.style.display = "none";
+  if (button5) button5.style.display = "none";
+  if (button6) button6.style.display = "none";
+  if (button7) button7.style.display = "none";
 }
 
 function reStartt() {
@@ -173,9 +173,9 @@ function reStartt() {
   button2.style.display = "none";
   button3.style.display = "none";
   button4.style.display = "none";
-  button5.style.display = "none";
-  button6.style.display = "none";
-  button7.style.display = "none";
+  if (button5) button5.style.display = "none";
+  if (button6) button6.style.display = "none";
+  if (button7) button7.style.display = "none";
 }
 
 function handleContinue() {
