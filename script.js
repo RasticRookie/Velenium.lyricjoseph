@@ -74,7 +74,8 @@ function cakeClick() {
 }
 
 function kanyeClick() {
-  document.getElementById("imag3").src = "pics/end1.png";
+  document.getElementById("imag3").src = "pics/end2.png";
+  document.getElementById("imagee").src = "pics/greenbg.png";
   document.getElementById("firstxt").innerHTML = "You gave her the Kanye West autobiography. She seems pleased with your choice!";
   
   button5.style.display = "none";
@@ -85,7 +86,7 @@ function kanyeClick() {
 }
 
 function nanaClick() {
-  document.getElementById("imag3").src = "pics/end2.png";
+  document.getElementById("imag3").src = "pics/end4.png";
   document.getElementById("firstxt").innerHTML = "You gave her the Nana manga. She loves it!";
   
   button5.style.display = "none";
@@ -96,7 +97,8 @@ function nanaClick() {
 }
 
 function onepieceClick() {
-  document.getElementById("imag3").src = "pics/end4.png";
+  document.getElementById("imag3").src = "pics/end1.png";
+  document.getElementById("imagee").src = "pics/greenbg.png";
   document.getElementById("firstxt").innerHTML = "You gave her the One Piece manga. An excellent choice!";
   
   button5.style.display = "none";
@@ -162,6 +164,7 @@ function reStartt() {
   document.getElementById("firstxt").innerHTML = "Velenium is a zombie. She wants to feel normal again and needs your help.";
   continueButton.style.display = "";
   document.getElementById("imag3").src = "pics/img1.png";
+  document.getElementById("imagee").src = "pics/bg1-1.png";
   clickCount = 0;
   gameState = "start";
   document.body.style.backgroundColor = '#ffd3f5';
