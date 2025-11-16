@@ -64,7 +64,7 @@ function headbandClick() {
 
 function cakeClick() {
   document.getElementById("imag3").src = "pics/imgcake.png";
-  document.getElementById("firstxt").innerHTML = "It's...so perfect! She can barely contain herself as she stares at the birthday gift. Everything is perfect. You...are perfect. Finally, she found someone worth saving. A kind angel such as yourself will never leave her sight again.";
+  document.getElementById("firstxt").innerHTML = "It's...so perfect! She can barely contain herself as she stares at the birthday gift. Everything is perfect. You...are perfect. A kind angel such as yourself will never leave her sight again.";
 
   button3.style.display = "none";
   button4.style.display = "none";
@@ -76,7 +76,7 @@ function cakeClick() {
 function kanyeClick() {
   document.getElementById("imag3").src = "pics/end2.png";
   document.getElementById("imagee").src = "pics/greenbg.png";
-  document.getElementById("firstxt").innerHTML = "You gave her the Kanye West autobiography. She seems pleased with your choice!";
+  document.getElementById("firstxt").innerHTML = "You gave her the Kanye West autobiography. She's enraged by your terrible request. Such an inpolite man is the last thing she's want to read about. She bites you, infecting her with her zombie disease!";
   
   button5.style.display = "none";
   button6.style.display = "none";
@@ -87,7 +87,7 @@ function kanyeClick() {
 
 function nanaClick() {
   document.getElementById("imag3").src = "pics/end4.png";
-  document.getElementById("firstxt").innerHTML = "You gave her the Nana manga. She loves it!";
+  document.getElementById("firstxt").innerHTML = "You gave her the Nana manga. She loves it! She's so happy you got her something she loves. He hear is soaring with joy.";
   
   button5.style.display = "none";
   button6.style.display = "none";
@@ -99,7 +99,7 @@ function nanaClick() {
 function onepieceClick() {
   document.getElementById("imag3").src = "pics/end1.png";
   document.getElementById("imagee").src = "pics/greenbg.png";
-  document.getElementById("firstxt").innerHTML = "You gave her the One Piece manga. An excellent choice!";
+  document.getElementById("firstxt").innerHTML = "You gave her the One Piece manga. She's upset you don't want to read shoujo! Although shonen is fine too, her heart is broken.";
   
   button5.style.display = "none";
   button6.style.display = "none";
@@ -133,7 +133,7 @@ function secondPage() {
 function thirdPage() {
   document.body.style.backgroundColor = '#4091ce';
   continueButton.style.display = "none";
-  document.getElementById("firstxt").innerHTML = "She loves you so much more now. Choose a book to read together";
+  document.getElementById("firstxt").innerHTML = "She loves you so much more now. You decided to bring her to a library away from home. Although reluctant, she loves a good read. Choose a book to read together.";
   
   button3.style.display = "none";
   button4.style.display = "none";

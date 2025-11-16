@@ -74,17 +74,19 @@ background-color: #ea6c98;
 
 #option5 {
 top: 720px;
-background-color: #dd4b4b;
+  left: 10px;
+background-color: #7db922;
 }
 
 #option6 {
 top: 790px;
-background-color: #5d7cf9;
+background-color: #cd39ea;
 }
 
 #option7 {
 top: 860px;
-background-color: #d23737;
+  left: 10px;
+background-color: #bb2a2a;
 }
 
 #gameOver {
@@ -93,6 +95,8 @@ background-color: #d23737;
   color: #ff3838;
   top: 750px;
 }
+
+
 
 
 
