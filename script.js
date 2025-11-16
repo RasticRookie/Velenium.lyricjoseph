@@ -17,6 +17,15 @@ button3.style.display = "none";
 var button4 = document.getElementById("option4");
 button4.style.display = "none";
 
+var button5 = document.getElementById("option5");
+button5.style.display = "none";
+
+var button6 = document.getElementById("option6");
+button6.style.display = "none";
+
+var button7 = document.getElementById("option7");
+button7.style.display = "none";
+
 var gameOver = document.createElement("button");
 gameOver.innerHTML = "GAME OVER";
 gameOver.id = "gameOver";
@@ -64,6 +73,39 @@ function cakeClick() {
   gameState = "afterCake";
 }
 
+function kanyeClick() {
+  document.getElementById("imag3").src = "pics/end1.png";
+  document.getElementById("firstxt").innerHTML = "You gave her the Kanye West autobiography. She seems pleased with your choice!";
+  
+  button5.style.display = "none";
+  button6.style.display = "none";
+  button7.style.display = "none";
+  
+  reStart.style.display = "";
+}
+
+function nanaClick() {
+  document.getElementById("imag3").src = "pics/end2.png";
+  document.getElementById("firstxt").innerHTML = "You gave her the Nana manga. She loves it!";
+  
+  button5.style.display = "none";
+  button6.style.display = "none";
+  button7.style.display = "none";
+  
+  reStart.style.display = "";
+}
+
+function onepieceClick() {
+  document.getElementById("imag3").src = "pics/end4.png";
+  document.getElementById("firstxt").innerHTML = "You gave her the One Piece manga. An excellent choice!";
+  
+  button5.style.display = "none";
+  button6.style.display = "none";
+  button7.style.display = "none";
+  
+  reStart.style.display = "";
+}
+
 function firstPage() {
   document.getElementById("firstxt").innerHTML = "She hates chocolate, yellow, and impoliteness. She loves shoujo manga, fruit, and jokes. Ready to have fun?";
 }
@@ -89,11 +131,14 @@ function secondPage() {
 function thirdPage() {
   document.body.style.backgroundColor = '#4091ce';
   continueButton.style.display = "none";
-  document.getElementById("firstxt").innerHTML = "You did it! You saved Velenium! And...your life...";
-  reStart.style.display = "";
+  document.getElementById("firstxt").innerHTML = "You did it! You saved Velenium! Now choose a gift for her to celebrate:";
   
   button3.style.display = "none";
   button4.style.display = "none";
+  
+  button5.style.display = "";
+  button6.style.display = "";
+  button7.style.display = "";
 }
 
 function gameOverr() {
@@ -102,11 +147,15 @@ function gameOverr() {
   document.getElementById("imag3").src = "pics/img1.png";
   clickCount = 0;
   gameState = "start";
+  document.body.style.backgroundColor = '#ffd3f5';
   gameOver.style.display = "none";
   button1.style.display = "none";
   button2.style.display = "none";
   button3.style.display = "none";
   button4.style.display = "none";
+  button5.style.display = "none";
+  button6.style.display = "none";
+  button7.style.display = "none";
 }
 
 function reStartt() {
@@ -121,6 +170,9 @@ function reStartt() {
   button2.style.display = "none";
   button3.style.display = "none";
   button4.style.display = "none";
+  button5.style.display = "none";
+  button6.style.display = "none";
+  button7.style.display = "none";
 }
 
 function handleContinue() {
@@ -145,5 +197,8 @@ button1.onclick = redClick;
 button2.onclick = blueClick;
 button3.onclick = headbandClick;
 button4.onclick = cakeClick;
+button5.onclick = kanyeClick;
+button6.onclick = nanaClick;
+button7.onclick = onepieceClick;
 gameOver.onclick = gameOverr;
 reStart.onclick = reStartt;
