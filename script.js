@@ -34,7 +34,7 @@ document.body.appendChild(gameOver);
 
 function redClick() {
   document.getElementById("imag3").src = "pics/imgred.png";
-  document.getElementById("firstxt").innerHTML = "She looks at you, feeling betrayed. Velenium can't beleive how little you know her. She thought you were her friend. But you're just like the rest of them. All of you are the same...";
+  document.getElementById("firstxt").innerHTML = "She looks at you, feeling betrayed. Velenium can't believe how little you know her. She thought you were her friend. But you're just like the rest of them. All of you are the same...";
 
   button1.style.display = "none";
   button2.style.display = "none";
@@ -78,7 +78,7 @@ function kanyeClick() {
   img3.src = "pics/end2.png";
   img3.style.left = "530px";
   document.getElementById("imagee").src = "pics/greenbg.png";
-  document.getElementById("firstxt").innerHTML = "You gave her the Kanye West autobiography. She's enraged by your terrible request. Such an inpolite man is the last thing she's want to read about. She bites you, infecting her with her zombie disease!";
+  document.getElementById("firstxt").innerHTML = "You gave her the Kanye West autobiography to read. She's enraged by your terrible request. Such an impolite man is the last thing she'd want to read about. She bites you, infecting you with her zombie disease!";
 
   if (button5) button5.style.display = "none";
   if (button6) button6.style.display = "none";
@@ -92,7 +92,7 @@ function nanaClick() {
   var img3 = document.getElementById("imag3");
   img3.src = "pics/end4.png";
   img3.style.left = "530px";
-  document.getElementById("firstxt").innerHTML = "You gave her the Nana manga. She loves it! She's so happy you got her something she loves. He hear is soaring with joy.";
+  document.getElementById("firstxt").innerHTML = "You picked out the Nana manga tfor you both to read. She loves it! She's so happy you got her something she loves. Her heart is soaring with joy.";
 
   if (button5) button5.style.display = "none";
   if (button6) button6.style.display = "none";
@@ -107,7 +107,7 @@ function onepieceClick() {
   img3.src = "pics/end1.png";
   img3.style.left = "530px";
   document.getElementById("imagee").src = "pics/greenbg.png";
-  document.getElementById("firstxt").innerHTML = "You gave her the One Piece manga. She's upset you don't want to read shoujo! Although shonen is fine too, her heart is broken.";
+  document.getElementById("firstxt").innerHTML = "You handed her the One Piece manga, a shonen piece of literature. She's upset you don't want to read shoujo! Although shonen is fine too, her heart is broken.";
 
   if (button5) button5.style.display = "none";
   if (button6) button6.style.display = "none";
