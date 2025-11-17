@@ -31,7 +31,7 @@ html {
   top: 950px;
   margin-bottom: 90px;
   width: 830px;
-  left: 400px;
+  left: 300px;
   background-color: purple;
   padding: 10px;
   border-radius: 30px;
@@ -43,7 +43,7 @@ button {
 position: absolute;
   background-color: #8df98b;
   top: 700px;
-  left: 510px;
+  left: 400px;
   border: 5px solid #000000;
   color: black;
   border-radius: 15px;
@@ -64,29 +64,31 @@ background-color: #5d7cf9;
 
 #option3 {
 top: 720px;
+  left: 350px;
 background-color: #dd4b4b;
 }
 
 #option4 {
-top: 790px;
+top: 790px; 
+  left: 350px;
 background-color: #ea6c98;
 }
 
 #option5 {
 top: 720px;
-  left: 50px;
+  left: 350px;
 background-color: #99ca4e;
 }
 
 #option6 {
 top: 790px;
-  left: 50px
+  left: 350px;
 background-color: #c873d9;
 }
 
 #option7 {
 top: 860px;
-  left: 50px;
+  left: 350px;
 background-color: #d35a5a;
 }
 
@@ -97,7 +99,7 @@ background-color: #d35a5a;
   top: 750px;
 }
 
-
+#end1
 
 
 
