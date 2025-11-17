@@ -118,7 +118,7 @@ function onepieceClick() {
 }
 
 function firstPage() {
-  document.getElementById("firstxt").innerHTML = "She hates chocolate, yellow, and impoliteness. She loves shoujo manga, fruit, and activism. Ready to have fun?";
+  document.getElementById("firstxt").innerHTML = "She hates chocolate, yellow, and impoliteness. She loves shoujo manga, fruit, and <a href= "https://rasticrookie.github.io/Activist.for.Minimum.Wage.Increase/">activism</a> Ready to have fun?";
 }
 
 function showYogurtChoice() {
