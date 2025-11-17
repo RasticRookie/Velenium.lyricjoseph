@@ -64,7 +64,7 @@ function headbandClick() {
 
 function cakeClick() {
   document.getElementById("imag3").src = "pics/imgcake.png";
-  document.getElementById("firstxt").innerHTML = "It's...so perfect! She can barely contain herself as she stares at the birthday gift. Everything is perfect. You...are perfect. A kind angel such as yourself will never leave her sight again.";
+  document.getElementById("firstxt").innerHTML = "It's...so perfect! She can barely contain herself as she stares at the birthday gift. Everything is perfect. You...are perfect. A kind angel such as yourself will never leave her side again.";
 
   button3.style.display = "none";
   button4.style.display = "none";
@@ -92,7 +92,7 @@ function nanaClick() {
   var img3 = document.getElementById("imag3");
   img3.src = "pics/end4.png";
   img3.style.left = "530px";
-  document.getElementById("firstxt").innerHTML = "You picked out the Nana manga for you both to read, a story of two girls trying to make it in the city of Tokyo. She loves it! She's so happy you got her something that she could sit with a piece of strawberry cake to enjoy. Her heart is soaring with joy.";
+  document.getElementById("firstxt").innerHTML = "You picked out the Nana manga for you both to read, a story of two girls trying to make it in the city of Tokyo. She loves it! She's so happy you got her something that she could sit with a piece of strawberry cake to enjoy. Her heart is soaring with happiness.";
 
   if (button5) button5.style.display = "none";
   if (button6) button6.style.display = "none";
@@ -126,14 +126,14 @@ function showYogurtChoice() {
   reStart.style.display = "none";
   gameOver.style.display = "none";
 
-  document.getElementById("firstxt").innerHTML = "Today, Velenium wanted to get something sweet. She got two cups of frozen yogurt while you waited at the table. It confused you on how she got them, seeing as there was no...cashier...but you decided not to dwell on that fact. She came back with a blue cup that has sprinkles and chocolate yogurt and a red cup that has vanilla yogurt with blueberries. Which do you want?";
+  document.getElementById("firstxt").innerHTML = "Today, Velenium wanted to get something sweet. She got two cups of frozen yogurt while you waited at the table. It confused you how she got them, seeing as there was no...cashier...but you decided not to dwell on that fact. She came back with a blue cup that has chocolate yogurt with sprinkles and a red cup that has vanilla yogurt with blueberries. Which do you want?";
 
   button1.style.display = "";
   button2.style.display = "";
 }
 
 function secondPage() {
-  document.getElementById("firstxt").innerHTML = "Velenium's birthday is tommorow. She hasen't gotten a present in a long time and is hoping you get her something. Will you get her a headband with daisies on it or a strawberry cake?";
+  document.getElementById("firstxt").innerHTML = "Velenium's birthday is tommorow. She hasn't gotten a present in a long time and is hoping you get her something. Will you get her a headband with daisies on it or a strawberry cake?";
   continueButton.style.display = "none";
   reStart.style.display = "none";
   gameOver.style.display = "none";
@@ -159,7 +159,7 @@ function thirdPage() {
 }
 
 function gameOverr() {
-  document.getElementById("firstxt").innerHTML = "Velenium is a zombie. She wants to feel normal again and needs your help.";
+  document.getElementById("firstxt").innerHTML = "Velenium is a zombie. She wants to feel normal again and needs your help. Try getting to know her!";
   continueButton.style.display = "";
   var img3 = document.getElementById("imag3");
   img3.src = "pics/img1.png";
