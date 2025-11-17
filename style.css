@@ -99,7 +99,12 @@ background-color: #d35a5a;
   top: 750px;
 }
 
-#end1
+#bill {
+ position: relative;
+  top: 550px;
+  margin-bottom: 210px;
+  left: 530px;
+}
 
 
 
