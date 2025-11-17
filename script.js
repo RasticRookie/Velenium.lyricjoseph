@@ -84,6 +84,7 @@ function kanyeClick() {
   if (button6) button6.style.display = "none";
   if (button7) button7.style.display = "none";
 
+  reStart.style.display = "none";
   gameOver.style.display = "";
 }
 
@@ -97,6 +98,7 @@ function nanaClick() {
   if (button6) button6.style.display = "none";
   if (button7) button7.style.display = "none";
 
+  gameOver.style.display = "none";
   reStart.style.display = "";
 }
 
@@ -111,6 +113,7 @@ function onepieceClick() {
   if (button6) button6.style.display = "none";
   if (button7) button7.style.display = "none";
 
+  reStart.style.display = "none";
   gameOver.style.display = "";
 }
 
