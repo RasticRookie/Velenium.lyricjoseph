@@ -74,7 +74,9 @@ function cakeClick() {
 }
 
 function kanyeClick() {
-  document.getElementById("imag3").src = "pics/end2.png";
+  var img3 = document.getElementById("imag3");
+  img3.src = "pics/end2.png";
+  img3.style.left = "530px";
   document.getElementById("imagee").src = "pics/greenbg.png";
   document.getElementById("firstxt").innerHTML = "You gave her the Kanye West autobiography. She's enraged by your terrible request. Such an inpolite man is the last thing she's want to read about. She bites you, infecting her with her zombie disease!";
 
@@ -86,7 +88,9 @@ function kanyeClick() {
 }
 
 function nanaClick() {
-  document.getElementById("imag3").src = "pics/end4.png";
+  var img3 = document.getElementById("imag3");
+  img3.src = "pics/end4.png";
+  img3.style.left = "530px";
   document.getElementById("firstxt").innerHTML = "You gave her the Nana manga. She loves it! She's so happy you got her something she loves. He hear is soaring with joy.";
 
   if (button5) button5.style.display = "none";
@@ -97,7 +101,9 @@ function nanaClick() {
 }
 
 function onepieceClick() {
-  document.getElementById("imag3").src = "pics/end1.png";
+  var img3 = document.getElementById("imag3");
+  img3.src = "pics/end1.png";
+  img3.style.left = "530px";
   document.getElementById("imagee").src = "pics/greenbg.png";
   document.getElementById("firstxt").innerHTML = "You gave her the One Piece manga. She's upset you don't want to read shoujo! Although shonen is fine too, her heart is broken.";
 
