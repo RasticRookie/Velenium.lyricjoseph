@@ -3,7 +3,7 @@ var reStart = document.getElementById("Restart");
 reStart.style.display = "none";
 
 var clickCount = 0;
-var gameState = "start";
+var gameState = "start"; 
 
 var button1 = document.getElementById("option1");
 button1.style.display = "none";
