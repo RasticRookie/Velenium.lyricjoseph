@@ -220,8 +220,8 @@ function handleContinue() {
 continueButton.onclick = handleContinue;
 button1.onclick = redClick;
 button2.onclick = blueClick;
-button3.onclick = headbandClick;
-button4.onclick = cakeClick;
+button3.onclick = cakeClick;
+button4.onclick = headbandClick;
 if (button5) button5.onclick = kanyeClick;
 if (button6) button6.onclick = nanaClick;
 if (button7) button7.onclick = onepieceClick;
