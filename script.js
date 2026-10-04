@@ -126,7 +126,7 @@ function showYogurtChoice() {
   reStart.style.display = "none";
   gameOver.style.display = "none";
 
-  document.getElementById("firstxt").innerHTML = "Today, Velenium wanted to get something sweet. She got two cups of frozen yogurt while you waited at the table. It confused you on how she got them, seeing as there was no...cashier...but you decided not to dwell on that fact. She came back with a red cup that has sprinkles and chocolate yogurt and a blue cup that has vanilla yogurt with blueberries. Which do you choose for yourself?";
+  document.getElementById("firstxt").innerHTML = "Today, Velenium wanted to get something sweet. She got two cups of frozen yogurt while you waited at the table. It confused you on how she got them, seeing as there was no...cashier...but you decided not to dwell on that fact. She came back with a blue cup that has sprinkles and chocolate yogurt and a red cup that has vanilla yogurt with blueberries. Which do you choose for yourself?";
 
   button1.style.display = "";
   button2.style.display = "";
